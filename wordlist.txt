@@ -1,9 +1,0 @@
-apple
-ant
-cat
-wagon
-dog
-aardvark
-zoo
-wrong
-gold
