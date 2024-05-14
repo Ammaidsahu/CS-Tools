@@ -1,0 +1,13 @@
+--code--
+--A--
+-- 1 --
+mkdir lab_final
+cd lab_final
+nano permission.txt
+ls -l permission.txt
+chmod u=rw,g=r,o=w permission.txt
+ls -l permission.txt
+
+-- 2 --
+nano wordlist.txt
+grep '^[a-g]\w\|^[w-z]\w' wordlist.txt
