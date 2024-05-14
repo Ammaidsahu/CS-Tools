@@ -1,0 +1,12 @@
+from flask import Flask, request
+import math
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def square_root():
+    n = int(request.args.get('n'))
+    return f'The Square root of n is: {math.sqrt(n)}'
+
+if __name__ == '__main__':
+    app.run(port=5000)
